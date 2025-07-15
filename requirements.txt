@@ -1,0 +1,13 @@
+langchain>=0.1.16
+langgraph>=0.0.24
+openai>=1.25.1
+fastapi
+uvicorn
+python-dotenv
+langchain-openai>=0.0.8
+pinecone
+nltk
+sentence_transformers
+langchain-core
+numpy
+tqdm

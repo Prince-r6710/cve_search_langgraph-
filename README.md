@@ -77,11 +77,6 @@ It uses:
          │   ├── pinecone_init.py     # Pinecone client initialization
          │   └── prompts.py           # Prompt templates for agents
          │
-         ├── data_seeds/              # Stores downloaded raw zip data files
-         │
-         ├── parsed_seeds/            # Stores parsed JSON data
-         │   ├── <year>_raw.json      # Uncleaned parsed data
-         │   └── <year>_parsed.json   # Cleaned data ready for embedding
          │
          ├── requirements.txt
          └── README.md

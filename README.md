@@ -54,37 +54,37 @@ It uses:
 
 📂 **Folder Structure**
 
-cve_langgraph_assignment/
-├── agents/
-│   ├── query_parser.py
-│   ├── retrieval_agent.py
-│   └── summarizer_agent.py
-│
-├── graphs/
-│   └── workflow_graph.py
-│
-├── interface/
-│   └── cli.py
-│
-├── scripts/
-│   ├── download.py          # Downloads CVE data zip files from NVD
-│   ├── unzip.py             # Unzips downloaded data files
-│   └── embed_and_ingest.py  # Embeds cleaned data and ingests into Pinecone
-│
-├── utils/
-│   ├── parse_clean.py       # Parses and cleans unzipped CVE JSON files
-│   ├── embedding.py         # Embedding logic for CVE data
-│   ├── pinecone_init.py     # Pinecone client initialization
-│   └── prompts.py           # Prompt templates for agents
-│
-├── data_seeds/              # Stores downloaded raw zip data files
-│
-├── parsed_seeds/            # Stores parsed JSON data
-│   ├── <year>_raw.json      # Uncleaned parsed data
-│   └── <year>_parsed.json   # Cleaned data ready for embedding
-│
-├── requirements.txt
-└── README.md
+      cve_langgraph_assignment/
+         ├── agents/
+         │   ├── query_parser.py
+         │   ├── retrieval_agent.py
+         │   └── summarizer_agent.py
+         │
+         ├── graphs/
+         │   └── workflow_graph.py
+         │
+         ├── interface/
+         │   └── cli.py
+         │
+         ├── scripts/
+         │   ├── download.py          # Downloads CVE data zip files from NVD
+         │   ├── unzip.py             # Unzips downloaded data files
+         │   └── embed_and_ingest.py  # Embeds cleaned data and ingests into Pinecone
+         │
+         ├── utils/
+         │   ├── parse_clean.py       # Parses and cleans unzipped CVE JSON files
+         │   ├── embedding.py         # Embedding logic for CVE data
+         │   ├── pinecone_init.py     # Pinecone client initialization
+         │   └── prompts.py           # Prompt templates for agents
+         │
+         ├── data_seeds/              # Stores downloaded raw zip data files
+         │
+         ├── parsed_seeds/            # Stores parsed JSON data
+         │   ├── <year>_raw.json      # Uncleaned parsed data
+         │   └── <year>_parsed.json   # Cleaned data ready for embedding
+         │
+         ├── requirements.txt
+         └── README.md
 
 
 ---

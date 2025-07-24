@@ -4,6 +4,17 @@
 
 This project implements a **Retrieval-Augmented Generation (RAG) pipeline** to query and summarize Common Vulnerabilities and Exposures (CVEs).
 
+## 🧠 Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=for-the-badge)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-2D3748?style=for-the-badge)
+![Semantic Search](https://img.shields.io/badge/Semantic%20Search-4B0082?style=for-the-badge)
+![LLM Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-FF69B4?style=for-the-badge)
+![CrossEncoder](https://img.shields.io/badge/Re--ranking-CrossEncoder-orange?style=for-the-badge)
+![CLI Tool](https://img.shields.io/badge/Interface-CLI-informational?style=for-the-badge)
+
 It uses:
 
 - **LangGraph** for modular workflow orchestration
